@@ -1,4 +1,4 @@
-def presence_score(n: int, l: [int]) -> int:
+def presence_score(n: int, l: list[int]) -> int:
     presence = 0
     for i in l:
         if n == i:
@@ -6,7 +6,7 @@ def presence_score(n: int, l: [int]) -> int:
     return presence
 
 
-def get_lists(raw: str) -> (str):
+def get_lists(raw: str) -> tuple[list[int]]:
     list_1 = []
     list_2 = []
     for line in raw:
