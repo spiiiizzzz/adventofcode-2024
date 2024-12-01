@@ -6,7 +6,7 @@ def presence_score(n: int, l: list[int]) -> int:
     return presence
 
 
-def get_lists(raw: str) -> tuple[list[int]]:
+def get_lists(raw: list[str]) -> tuple[list[int]]:
     list_1 = []
     list_2 = []
     for line in raw:
