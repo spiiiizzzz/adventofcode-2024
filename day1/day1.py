@@ -7,7 +7,7 @@ def distance(a: int, b: int) -> int:
     return abs(a-b)
 
 
-def get_lists(raw: str) -> tuple[list[int]]:
+def get_lists(raw: list[str]) -> tuple[list[int]]:
     list_1 = []
     list_2 = []
     for line in raw:
