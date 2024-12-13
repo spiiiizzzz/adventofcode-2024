@@ -46,7 +46,7 @@ def button_combination(button_a: tuple[int], button_b: tuple[int], val: tuple[in
         return (a, b)
 
 def main():
-    with open("/home/saas/Projects/aoc-2024/day13/input.txt", "r") as f:
+    with open("input.txt", "r") as f:
         inp = f.read().split('\n\n')
 
         machines = []
