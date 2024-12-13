@@ -97,7 +97,7 @@ def DFS(grid: list[list[str]], p: tuple[int, int, tuple[bool] | None]) -> int:
     return area
 
 def main():
-    with open("/home/saas/Projects/aoc-2024/day12/input.txt", "r") as f:
+    with open("input.txt", "r") as f:
         grid = [list(line) for line in list(map(str.strip, f.readlines()))]
 
         total = 0
